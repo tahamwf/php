@@ -6,11 +6,11 @@ $name=$_POST['name'];
 $email=$_POST['email'];
 
 
-$sql="INSERT INTO `students` (`id`, `name`, `email`) VALUES ('$id',$name,$email);";
+$sql="INSERT INTO `records` (`id`, `name`, `email`) VALUES ($id,'$name','$email');";
 if(mysqli_query($con,$sql)){
     echo "New record created successfully";
 } else {
-    echo "Error: " . $sql . mysqli_error($con);
+    echo "Error: " . $sql . "<br>" . mysqli_error($con);
 }
 }
 ?>
