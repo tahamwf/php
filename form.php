@@ -14,14 +14,14 @@ require_once 'insert.php';
 <label>
     NAME:
     <input type="text" name="name" required>
-<label>
+</label>
 <br>
 <label>
     EMAIL:
     <input type="email" name="email" required>
-<label>
+</label>
 <br>
 <label>
     <input type="submit" value="Submit" name="submit">
-<label>
+</label>
 </form>
