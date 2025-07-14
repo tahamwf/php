@@ -1,7 +1,7 @@
 <?php
 $user="root";
 $pass="";
-$database="records";
+$database="students";
 $host="localhost";
 
 
